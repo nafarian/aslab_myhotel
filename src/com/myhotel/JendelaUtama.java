@@ -22,6 +22,7 @@ public class JendelaUtama {
 				try {
 					JendelaUtama window = new JendelaUtama();
 					window.frmMyHotel.setVisible(true);
+					DatabaseHotel.init();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
